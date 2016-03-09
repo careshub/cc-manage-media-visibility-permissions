@@ -125,7 +125,7 @@ class CC_Manage_Media_Admin {
 			case 'edit_post':
 			case 'delete_post':
 				// Only act on attachments.
-				if ( 'attachment' == get_post_type( $args[0] ) ) {
+				if ( isset( $args[0] ) && 'attachment' == get_post_type( $args[0] ) ) {
 					// If the use is the author, allow him to edit the media.
 					// Was the media item created by an sa_curator?
 					$author_id = get_post_field( 'post_author', $args[0] );
