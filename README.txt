@@ -1,8 +1,8 @@
 === CC Manage Media and Permissions ===
 Contributors: dcavins
 Tags: media library, add library modal
-Requires at least: 4.2
-Tested up to: 4.3
+Requires at least: 4.7
+Tested up to: 4.9
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,7 @@ Create centralized control over who can see & edit which media items on CC.
 
 == Description ==
 
-This plugin sets up the basic media restrictions for non-admin users on Community Commons.
+This plugin sets up the basic media restrictions for non-admin users on a site.
 It assumes that a subscriber should:
 * only see the media that she's uploaded to the site when using the Media library
 * only see the media that she's uploaded to the site when using the "Add Media" modal
